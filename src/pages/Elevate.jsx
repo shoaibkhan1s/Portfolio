@@ -433,7 +433,7 @@ export default function Elevate() {
             {/* Primary — Live URL */}
 
             <a
-              href="https://elevate-xqw2.onrender.com/"
+              href="https://recallify-xi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 text-xs tracking-[0.15em] uppercase transition-all duration-300"

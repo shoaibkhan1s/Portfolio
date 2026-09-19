@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { ProductBlock } from "./ProductBlock";
 
-import ElevateThumbnail from "../assets/thumbnails/elevate.png";
+import RecallifyThumbnail from "../assets/thumbnails/recallify.png";
 import ZentraThumbnail from "../assets/zentraImages/room.png";
 
 const CREAM = "#EAE4D5";
@@ -11,13 +11,13 @@ const E = [0.16, 1, 0.3, 1];
 
 const PRODUCTS = [
   {
-    id: "elevate",
-    name: "Elevate",
-    hook: "For players who take gaming seriously.",
-    desc: "A competitive coaching platform for Valorant players. Get expert guidance, review gameplay, and improve faster with structured feedback and real-time sessions.",
-    stack: ["MERN", "Tailwind", "socket.io", "razorpay"],
+    id: "recallify",
+    name: "Recallify",
+    hook: "Turn scattered knowledge into searchable memory.",
+    desc: "A Knowledge platform that organizes Social Media Saves and links, generates semantic embeddings, and lets you instantly find what you need through intelligent search.",
+    stack: ["Next.js", "MongoDB", "Gemini","Vector Search","Embeddings"],
     accent: ORANGE,
-    mockup: { src: ElevateThumbnail },
+    mockup: { src: RecallifyThumbnail },
   },
   {
     id: "zentra",

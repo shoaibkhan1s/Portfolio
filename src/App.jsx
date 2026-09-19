@@ -14,7 +14,7 @@ function App() {
       <TransitionProvider>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/elevate" element={<Elevate />} />
+          <Route path="/recallify" element={<Elevate />} />
           <Route path="/zentra" element={<Zentra />} />
         </Routes>
       </TransitionProvider>
